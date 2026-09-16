@@ -1,0 +1,13 @@
+{
+  "name": "liulab-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Liu Lab static academic website for the existing Aliyun Nginx server",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs",
+    "preview": "node preview.mjs",
+    "check": "node --check server.mjs && node --check dist/lab-assets/content.js && node --check dist/lab-assets/main.js",
+    "test": "node --test test/server.test.mjs"
+  }
+}

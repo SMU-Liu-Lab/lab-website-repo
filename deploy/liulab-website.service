@@ -1,0 +1,16 @@
+# systemd USER unit. Adapt both paths to the actual checkout and node binary.
+[Unit]
+Description=Liu Lab website on 127.0.0.1:8507
+
+[Service]
+Type=simple
+WorkingDirectory=%h/apps/lab-website-repo
+ExecStart=/usr/bin/node %h/apps/lab-website-repo/server.mjs
+Environment=NODE_ENV=production
+Environment=PORT=8507
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=15
+
+[Install]
+WantedBy=default.target
