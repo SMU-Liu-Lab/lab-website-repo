@@ -5,8 +5,8 @@ window.LIU_LAB = {
     { name: 'CHIP Search', subtitle: 'CHIP 风险可视化与查询', category: '克隆性造血', code: 'CS', color: 'blue', url: 'https://liulab-genome.com/chip-search/', description: '按性别、年龄、基因突变与疾病查询 CHIP 相关风险，结合森林图查看风险因素和疾病关联。', note: '分组风险查询与森林图' },
     { name: 'HLA Disease Database', subtitle: 'HLA 疾病关联数据库', category: '数据资源', code: 'HLA', color: 'violet', url: 'https://liulab-genome.com/HLA-disease/', description: '浏览 HLA 与疾病的关联，结合 OR、置信区间及森林图开展关联分析。', note: '疾病关联与可视化' },
     { name: 'RareDipper', subtitle: 'VERDI · 罕见病研究', category: '罕见病', code: 'RD', color: 'ochre', url: 'https://liulab-genome.com/RareDipper/', description: '面向罕见病研究的疾病–基因关联评分工具，辅助探索候选疾病与基因。', note: '疾病–基因关联评分' },
-    { name: '械审知行', subtitle: 'MedReview', category: '科研体验', code: 'MR', color: 'slate', url: 'https://liulab-genome.com/medreview/', description: '通过虚构材料体验医疗器械辅助审查，包含法规核验与审查意见复核。', note: '科研演示 · 使用虚构材料' },
-    { name: '药审知行', subtitle: 'DrugReview', category: '科研体验', code: 'DR', color: 'rust', url: 'https://liulab-genome.com/drugreview/', description: '体验药品注册审评流程，涵盖法规查阅、补交复检与意见报告。', note: '科研演示 · 使用虚构材料' }
+    { name: '械审知行', subtitle: 'MedReview', category: '科研体验', code: 'MR', color: 'slate', url: 'https://liulab-genome.com/medreview/', description: '通过模拟材料体验医疗器械辅助审查，包含法规核验与审查意见复核。', note: '科研演示 · 使用模拟材料' },
+    { name: '药审知行', subtitle: 'DrugReview', category: '科研体验', code: 'DR', color: 'rust', url: 'https://liulab-genome.com/drugreview/', description: '体验药品注册审评流程，涵盖法规查阅、补交复检与意见报告。', note: '科研演示 · 使用模拟材料' }
   ],
   publications: [
     { year: 2026, title: 'Risk factors of clonal hematopoiesis of indeterminate potential', journal: 'Clinical Medicine (London)', pmid: '42570703', doi: '10.1016/j.clinme.2026.100635', topic: '克隆性造血的危险因素' },
